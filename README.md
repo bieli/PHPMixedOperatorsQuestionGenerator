@@ -29,4 +29,46 @@ Example run:
 >
 > }
 > 
+> 
+> $ php PHPMixedOperatorsQuestionGenerator.php 
+> 
+> 0 <-  (0 and 4)  | 8 ^ 8
+> 
+> array(4) {
+> 
+>   [0]=>
+>   string(30) "PHP Parse error:  syntax error"
+> 
+>   [1]=>
+>   int(5)
+> 
+>   [2]=>
+>   int(11)
+> 
+>   [3]=>
+>   int(0)
+> 
+> }
+> 
+> 
+> $ php PHPMixedOperatorsQuestionGenerator.php 
+> 
+> 9 <-  (4 & 0)  &  (0 & 1)  |  (1 ^ 8) 
+> 
+> array(4) {
+> 
+>   [0]=>
+>   string(30) "PHP Parse error:  syntax error"
+> 
+>   [1]=>
+>   int(9)
+> 
+>   [2]=>
+>   int(4)
+> 
+>   [3]=>
+>   int(9)
+> 
+> }
+> 
 
